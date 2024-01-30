@@ -25,6 +25,7 @@ git clone https://github.com/pjialin/py12306
 
 pip install -r requirements.txt
 ```
+用的python3.73，安装依赖报错，查究后，将urllib3==1.26.5 ->> urllib3==1.24.3，成功
 
 **2. 配置程序**
 ```bash
